@@ -1,0 +1,635 @@
+/* basci styling start */
+
+
+  #contact-header{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    float: right;
+    text-decoration: black;
+  }
+  .navbar{ 
+    float: inline-end;
+    margin-top: 3%;
+  }
+  /* basic styling end  */
+  
+  /* header start  */
+  
+  header{
+    padding: 40px 0;
+    background-color: #ffc045;
+    /* border: 1px solid salmon; */
+    background-image:url(background1.png);
+  }
+  .logo {
+    width: 15%;
+    float: left;
+    cursor: pointer;
+    /* border: 1px solid rgb(255, 255, 255); */
+  }
+  
+  .logo img{
+    width: 100%;
+  }
+  
+  .menu {
+    width: 60%;
+    float: right;
+    /* border: 1px solid salmon; */
+  }
+  
+  .menu ul {
+    padding-top: 20px;
+    float: right;
+  }
+  
+  
+  .contact p{
+    display: inline-block;
+  }
+  
+  .menu ul li{
+    list-style: none;
+    float: left;
+  
+  }
+  
+  .menu ul li:last-child a{
+    margin-right: 0;
+  }
+  
+  .menu ul li a{
+    margin: 0 60px;
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3d2514;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+  }
+  
+  .menu ul li a:hover{
+    border-bottom: 1px solid #3d2514;
+  }
+  
+  /* header end  */
+  
+  /* banner start  */
+  
+  .banner{
+    padding-bottom: 80px;
+    height: 100vh;
+    background-image: url(background1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .banner-content {
+    margin-top: 20%;
+  }
+  
+  .description {
+    float:left;
+    width: 70%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 53px;
+    /* text-align: center; */
+    border: 1px dashed #3d2514;
+    margin-left: 0%;
+
+
+  }
+  
+  .banner-title {
+    padding-top: 25px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 114px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px white;
+  }
+  
+  
+  
+ 
+  
+  .price-tag{
+    position: absolute;
+    top: 73%;
+    right: 40%;
+  }
+  
+  /* banner end  */
+  
+  /* popular items start  */
+  
+ 
+  
+  /* popular items end   */
+  
+  
+  /* burger-menu start */
+  
+  .burger-menu {
+    padding-bottom: 80px;
+  }
+  
+  .menu-info {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+    /* single burger start  */
+  
+  .burger-container {
+    overflow: hidden;
+  }
+  
+  .single-burger {
+    padding: 40px 0;
+    padding-right: 11%;
+    width: 26%;
+    /* border: 1px solid salmon; */
+    text-align: center;
+    float: left;
+  }
+  
+  .single-burger:last-child{
+    padding-right: 0;
+    /* background-color: rebeccapurple; */
+  }
+  
+  .burger-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .burger-img img {
+    width: 100%;
+  }
+  
+  .img-2{
+    width: 60%;
+  }
+  
+  .img-3{
+    width: 83.5%;
+  }
+  
+  .burger-name{
+    padding-top: 25px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: #3d2514;
+  }
+  
+  .burger-info{
+    padding: 25px 0;
+  }
+  
+  /* single burger end  */
+  
+  /* burger-menu end */
+  
+  /* events start  */
+  
+  .events {
+    padding-bottom: 80px;
+    
+  }
+  
+  .container-3{
+    border-radius: 20px;
+    box-shadow: 10px 31px 128px -17px rgba(0,0,0,0.1);
+  }
+  
+  .event-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .event-content {
+    padding-left: 50px;
+    width: 43%;
+    float: left;
+  }
+  
+  .tag {
+    padding-top: 60px;
+    color: #3d2514;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .title {
+    padding: 0;
+    padding-bottom: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  
+  .info {
+    font-size: 20px;
+    color: #3d3d3d;
+    line-height: 40px;
+  }
+  
+  .dots{
+    position: absolute;
+    bottom: 15%;
+  }
+  
+  .event-img {
+    padding: 30px;
+    width: 50%;
+    float: right;
+  }
+  
+  .event-img img{
+    width: 100%;
+  }
+  
+  /* events end  */
+  
+  /* reservation start  */
+  
+  .reservation{
+    padding-top: 80px;
+    padding-bottom: 0;
+    height: 100vh;
+    background-image: url(bc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .reservation-content{
+    text-align: center;
+  }
+  
+  .form-container input {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 25px 0 25px 25px;
+    width: 380px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+  }
+  
+  .form-container input:focus{
+    outline: none;
+  }
+  
+  .form-container input:last-child{
+    width: 409px;
+    padding: 0;
+    padding: 25px 0 25px 25px;
+    font-family: 'Alfa Slab One', cursive;
+    border: 1px solid #df1c1c;
+  }
+  
+  /* reservation end  */
+  
+  /* footer start  */
+  
+  footer{
+    margin-bottom: 80px;
+  }
+  
+  .footer-bg{
+    padding: 80px 40px;
+    background-image: url(footerbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 10px; */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .about {
+    width: 40%;
+    float: left;
+  }
+  
+  
+  .about-us{
+    padding: 40px 0 160px;
+    color: #fff;
+    line-height: 30px;
+  }
+  
+  .copyright {
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    color: #c4c4c4;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* letter-spacing: 1px; */
+  }
+  
+  .contact {
+    padding-top: 10%;
+    width: 30%;
+    float: right;
+  }
+  
+  .contact address{
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-style: normal;
+  }
+  
+  .contact address p{
+    padding-left: 10px;
+    position: absolute;
+    top: 15%;
+  }
+  
+  .email {
+    margin-top: 20px;
+    position: relative;
+    color: white;
+  }
+  
+  .email p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 10px;
+    position: absolute;
+    top: 5%;
+  }
+  
+  .social-medias {
+    position: absolute;
+    bottom:5%;
+    right: 2%;
+    z-index: 1;
+  }
+  
+  .social-medias ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+  }
+  
+  .social-medias ul li:last-child{
+    padding-right: 0;
+  }
+  
+  .social-medias ul li:hover{
+    cursor: pointer;
+  }
+  .social-medias i{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 20px;
+    height: 17px;
+  }
+  
+  /* footer end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3d2514;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto; 
+  overflow:hidden;
+  /* border: 1px solid; */
+}
+
+/* butoni 1 */
+.button{
+  margin-left: 25%;
+  padding: 15px 30px;
+  background-color: #df1c1c;
+  border: 1px solid #df1c1c;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  transition: 0.3s;
+
+}
+.button:hover{
+  border: 1px solid #df1c1c;
+  color: #df1c1c;
+  background-color: transparent;
+}
+.popular-items{
+  padding: 80px 0;
+}
+
+.container-2{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.item-container{
+  overflow: hidden;
+}
+
+.single-item{
+  float: left;
+  padding: 30px 0 0 30px;
+  width: 45%;
+  height: 460px;
+  border-radius: 20px;
+  background-image: url(Burger\ Image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.item-2{
+  width: 50%;
+  float: right;
+  height: 220px;
+  background-image: url(burger2.png);
+}
+
+.item-3{
+  margin-top:2%;
+  width: 50%;
+  float: right;
+  height: 220px;
+  background-image: url(burger3.png);
+}
+
+.item-tag, .tag{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+
+.item-info{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: -4%;
+}
+
+.menu-content {
+    line-height: 30px;
+    text-align-last: center;
+}
+
+.menu-tag {
+    width: 22%;
+    padding: 5px 0;
+    display: inline-block;
+    border: 1px solid #ffaa00;
+    background-color: #ffaa00;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: #3d2514;
+    text-align: center;
+}
+  
+.menu-title{
+  padding-top: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  text-transform:uppercase ;
+}
+
+.container-burger{
+    width: 100%;
+    max-width: 90%;
+    margin:auto; 
+    overflow: hidden;
+    margin-bottom:11px;
+    margin-top: 6%;
+    flex-flow: column wrap;
+    justify-content: space-between 22px;
+    
+}
+.burger1{
+  padding: 3vh;
+  margin-right: 10%;
+}
+.burger2{
+  /* height: 5px; */
+  padding: 3vh;
+  margin-right: 10%;
+  margin-top: -22px;
+}
+.burger3{
+  /* height: 5px; */
+  padding: 4vh;
+  margin-right: 10%;
+}
+
+.card-title{
+  margin-bottom: 40px;
+  padding: 0px;
+  font-size:38px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+.card-text{
+  /* padding-top: 10px; */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-align-last:center;
+  line-height: 20px;
+}
+
+.button1{
+  margin-left: 25%;
+  padding: 15px 30px;
+  background-color: #df1c1c;
+  border: 1px solid #df1c1c;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  margin-top: 40px;
+
+}
+
+.button1:hover{
+  border: 1px solid #df1c1c;
+  color: #df1c1c;
+  background-color: transparent;
+}

@@ -1,0 +1,36 @@
+
+@media all and (max-width: 760px) {
+    .thebutton {
+        display: flex;
+        position: relative;
+        margin-left: 80%;
+        margin-top: -5%;
+    }
+    .dropdown1 {
+      display: flex;
+      position: relative;
+      text-align: right;
+      width: 20%;
+  }
+    .popular-items{
+           width: 96%;
+    }
+
+    }
+    @media all and (max-width: 1650px) {
+       .left{
+          width: 65%;
+          margin-top: 18%;
+          margin-left: -8%;
+      }
+  
+      .locationpin {
+          margin-top: 5%;
+      }
+  
+      .rights {
+          width: 65%;
+          margin-top: 25%;
+          margin-left: 40%;
+      }
+  }
